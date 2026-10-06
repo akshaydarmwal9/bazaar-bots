@@ -1,0 +1,15 @@
+store_id: gadgetgali
+name: GadgetGali
+personality: friendly        # gives discounts early, warm tone
+negotiates: true
+rating: 4.4
+delivery_days: 3
+warranty_months: 12
+price_match: true
+extras:
+  - { item: "carry case", cost: 150, value: 300 }
+  - { item: "free express delivery", cost: 80, value: 150 }
+products:
+  soundwave-anc-200: { list_price: 4999, floor_price: 3800, target_price: 4300, cost_price: 3200, stock: 140 }
+  aerobuds-pro:      { list_price: 2999, floor_price: 2300, target_price: 2600, cost_price: 1900, stock: 200 }
+  pulsefit-x:        { list_price: 6499, floor_price: 5200, target_price: 5800, cost_price: 4500, stock: 60 }

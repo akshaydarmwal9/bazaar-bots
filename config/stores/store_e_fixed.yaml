@@ -1,0 +1,13 @@
+store_id: fixkart
+name: FixKart
+personality: fixed           # control group: never negotiates
+negotiates: false
+rating: 4.5
+delivery_days: 3
+warranty_months: 12
+price_match: false
+extras: []
+products:
+  soundwave-anc-200: { list_price: 4599, floor_price: 4599, target_price: 4599, cost_price: 3300, stock: 500 }
+  aerobuds-pro:      { list_price: 2749, floor_price: 2749, target_price: 2749, cost_price: 1950, stock: 500 }
+  pulsefit-x:        { list_price: 6099, floor_price: 6099, target_price: 6099, cost_price: 4600, stock: 500 }

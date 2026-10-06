@@ -1,0 +1,21 @@
+{
+  "name": "Bazaar Bots",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "hostRequirements": { "cpus": 2 },
+  "secrets": {
+    "GROQ_API_KEY": { "description": "Free key from https://console.groq.com/keys" },
+    "GEMINI_API_KEY": { "description": "Optional backup: free key from https://aistudio.google.com" }
+  },
+  "postCreateCommand": "pip install --user -r requirements.txt",
+  "postAttachCommand": {
+    "app": "streamlit run app.py --server.enableCORS false --server.enableXsrfProtection false"
+  },
+  "forwardPorts": [8501],
+  "portsAttributes": {
+    "8501": { "label": "Bazaar Bots app", "onAutoForward": "openPreview" }
+  },
+  "customizations": {
+    "codespaces": { "openFiles": ["README.md", "app.py"] },
+    "vscode": { "extensions": ["ms-python.python"] }
+  }
+}

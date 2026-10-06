@@ -1,0 +1,14 @@
+store_id: bazaarbuzz
+name: BazaarBuzz
+personality: festival_sale   # big opening discount, then firm
+negotiates: true
+rating: 3.9
+delivery_days: 7
+warranty_months: 6
+price_match: true
+extras:
+  - { item: "festive gift wrap", cost: 30, value: 80 }
+products:
+  soundwave-anc-200: { list_price: 5299, floor_price: 3600, target_price: 4200, cost_price: 3100, stock: 300 }
+  aerobuds-pro:      { list_price: 3199, floor_price: 2200, target_price: 2500, cost_price: 1850, stock: 250 }
+  pulsefit-x:        { list_price: 6799, floor_price: 5000, target_price: 5700, cost_price: 4400, stock: 150 }

@@ -1,0 +1,4 @@
+# Product names/categories shared by all stores (fictional brands)
+soundwave-anc-200: { name: "SoundWave ANC 200 headphones", category: headphones, keywords: [headphones, headphone, anc, noise, over-ear, soundwave] }
+aerobuds-pro:      { name: "AeroBuds Pro earbuds",          category: earbuds,    keywords: [earbuds, buds, tws, earphones, aerobuds, wireless earbuds] }
+pulsefit-x:        { name: "PulseFit X smartwatch",         category: smartwatch, keywords: [watch, smartwatch, fitness, band, pulsefit] }

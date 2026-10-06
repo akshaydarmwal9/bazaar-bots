@@ -1,0 +1,13 @@
+# Which LLM does the talking. Prices/decisions are always made by Python code.
+default: groq
+providers:
+  groq:
+    model: "openai/gpt-oss-20b"
+    env_key: GROQ_API_KEY
+  gemini:
+    model: "gemini-2.5-flash"     # change to any free-tier Gemini model ID from AI Studio
+    env_key: GEMINI_API_KEY
+  template: {}                    # no LLM: fast, free, offline
+fallback_order: [groq, gemini, template]
+temperature: 0.8
+max_tokens: 400
